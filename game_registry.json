@@ -1,0 +1,18 @@
+{
+  "games": [
+    {
+      "id": 0,
+      "name": "Game One",
+      "url": "https://xxxxxxxxxx.vercel.app",
+      "max_score": 999999,
+      "active": true
+    },
+    {
+      "id": 1,
+      "name": "Game Two",
+      "url": "https://xxxxxxxxxx.vercel.app",
+      "max_score": 999999,
+      "active": false
+    }
+  ]
+}
