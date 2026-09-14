@@ -2,7 +2,7 @@
 builder = "NIXPACKS"
 
 [deploy]
-startCommand = "gunicorn arcade-backend-app-v1:app --bind 0.0.0.0:$PORT --workers 2 --timeout 60"
+startCommand = "gunicorn arcade-backend-app-v2:app --bind 0.0.0.0:$PORT --workers 1 --threads 4 --timeout 120"
 healthcheckPath = "/health"
 healthcheckTimeout = 30
 restartPolicyType = "ON_FAILURE"
